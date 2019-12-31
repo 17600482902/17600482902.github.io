@@ -1,0 +1,28 @@
+{
+  "name": "@zhoudiankai/change-json",
+  "version": "0.0.2",
+  "description": "''\u001b[D将数组里面是json转换成一个josn对象工具",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack"
+  },
+  "keywords": [
+    "数组转json"
+  ],
+  "author": "周殿凯",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "http-server": "^0.12.0",
+    "user": "0.0.0"
+  }
+}
